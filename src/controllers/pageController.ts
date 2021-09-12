@@ -10,7 +10,7 @@ export const home = (req: Request, res: Response) => {
             title: 'Todos os animais',
             background: 'allanimals.jpg'
         },
-        list
+        list: list
     })
 };
 export const dogs = (req: Request, res: Response) => {
